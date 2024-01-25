@@ -1,5 +1,11 @@
-const Header = props => {
-    return <div>Header here</div>
-}
+import styled from "styled-components";
 
-export default Header
+const StyledHeader = styled.div(`
+  text-align: center;
+`);
+
+const Header = (props) => {
+  return <StyledHeader>Header here</StyledHeader>;
+};
+
+export default Header;
